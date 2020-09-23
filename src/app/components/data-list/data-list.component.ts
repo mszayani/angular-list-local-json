@@ -6,7 +6,7 @@ import cars from '../../../assets/data/cars.json';
   styleUrls: ['./data-list.component.css']
 })
 export class DataListComponent implements OnInit {
-  title="Angular Cars List";
+  title="Angular 10 List Json File Data | Cars List Component";
   public carList: {brand: string, model: string}[] =cars;
   constructor() { }
 

@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color: #494949;
+}
+.btn-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+ }
+ .btn-container button  {
+     font-size: 20px;
+     margin-top: 20px;
+     border-style: none;
+     background-color: #5172ff;
+     color: white;
+     border-radius: 25px;
+     cursor: pointer;
+ }
+ .btn-container  p {
+     
+     margin: 5px;
+ }

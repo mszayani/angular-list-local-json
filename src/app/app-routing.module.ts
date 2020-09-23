@@ -11,11 +11,6 @@ const routes: Routes = [
   {
     path: 'welcome',
     component: WelcomeComponent
-  },
-  {
-    path:'',
-    pathMatch: 'full',
-    redirectTo: 'welcome'
   }
 ];
 
